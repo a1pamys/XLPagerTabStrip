@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "XLPagerTabStripArnap"
+  s.name             = "XLPagerTabStrip"
   s.version          = "9.0.0"
   s.summary          = "Android PagerTabStrip for iOS and much more."
   s.homepage         = "https://github.com/a1pamys/XLPagerTabStrip.git"
