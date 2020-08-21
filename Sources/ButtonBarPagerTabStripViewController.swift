@@ -43,18 +43,18 @@ public struct ButtonBarPagerTabStripSettings {
 
     public struct Style {
         public var buttonBarBackgroundColor: UIColor?
-        public var buttonBarMinimumInteritemSpacing: CGFloat?
+        public var buttonBarMinimumInteritemSpacing: CGFloat? = 0
         public var buttonBarMinimumLineSpacing: CGFloat?
-        public var buttonBarLeftContentInset: CGFloat?
-        public var buttonBarRightContentInset: CGFloat?
+        public var buttonBarLeftContentInset: CGFloat? = 16
+        public var buttonBarRightContentInset: CGFloat? = 16
 
         public var selectedBarBackgroundColor = UIColor.black
-        public var selectedBarHeight: CGFloat = 5
+        public var selectedBarHeight: CGFloat = 2
         public var selectedBarVerticalAlignment: SelectedBarVerticalAlignment = .bottom
 
         public var buttonBarItemBackgroundColor: UIColor?
         public var buttonBarItemFont = UIFont.systemFont(ofSize: 18)
-        public var buttonBarItemLeftRightMargin: CGFloat = 8
+        public var buttonBarItemLeftRightMargin: CGFloat = 12
         public var buttonBarItemTitleColor: UIColor?
         public var buttonBarItemsShouldFillAvailableWidth = true
         // only used if button bar is created programaticaly and not using storyboards or nib files
